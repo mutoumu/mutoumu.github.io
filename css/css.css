@@ -1,0 +1,63 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    
+                    li {
+                        list-style: none;
+                    }
+                    
+                    button {
+                        cursor: pointer
+                    }
+                    
+                    a {
+                        color: #000;
+                        text-decoration: none;
+                    }
+                    /* 基础设置 */
+                    
+                    body {
+                        background-color: #F7F7F7;
+                    }
+                    
+                    .html {
+                        height: 100%;
+                    }
+                    
+                    .zhu {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        /* align-items: center; */
+                        background-color: rgb(255, 255, 255);
+                        border-bottom: rgb(0, 0, 0) solid 2px;
+                        margin-bottom: 5px;
+                    }
+                    
+                    .hhh {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: left;
+                        align-items: center;
+                        background-color: rgb(255, 255, 255);
+                        width: 80vw;
+                        height: 30px;
+                        margin-left: 100px;
+                    }
+                    
+                    .zz {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        background-color: rgb(70, 70, 70);
+                    }
+                    
+                    img {
+                        width: 80vw;
+                        margin-bottom: 10px;
+                    }
