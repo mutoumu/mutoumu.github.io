@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/css.css">
+    <!-- <link rel="stylesheet" href="./js/js.js"> -->
+    <script>
+        var compare = 0;
+        $(document).scroll(function() {
+            //获取当前scroll停留的位置
+            var scrollY = $(document).scrollTop();
+            if (scrollY <= 200) {
+                $(".top-title").removeClass("hidden");
+            } else if (scrollY > 200 && compare < scrollY) {
+                $(".top-title").addClass("hidden");
+            } else {
+                $(".top-title").removeClass("hidden");
+            }
+            //每次比较之后才进行赋值，那么这个compare就是上次scroll停留的位置的值！
+            compare = scrollY;
+
+        })
+    </script>
+</head>
+
+<body>
+    <header>
+
+        <div class="logo"><a href="">Mutoumu</a></div>
+        <nav>
+            <ul>
+                <li><a class="nav-link" href="">Home</a></li>
+                <li><a class="nav-link" href="">Work</a></li>
+                <li><a class="nav-link" href="">Play</a></li>
+                <li><a class="nav-link" href="">Dribbble</a></li>
+                <li><a class="nav-link" href="">Contact</a></li>
+            </ul>
+            <div class="reach"><a class="nlink " href="">Reach Out</a></div>
+        </nav>
+
+    </header>
+    <section class="bg">
+        <div class="text">
+            <div class="t1">AAAA+BBBB</div>
+            <div class="t2">Wood <br> Mutoumu</div>
+            <!-- <div class="t3">Mutoumu</div> -->
+        </div>
+        <div class="man"><img src="./images/man.jpg" alt=""></div>
+    </section>
+    <div class="di"></div>
+    <div class="jj">
+        <div class="jt1">
+            I never saw a Moor—<br> I never saw the Sea—<br> Yet know I how the Heather looks<br>And what a Billow be.<br> <br>I never spoke with God<br>Nor visited in Heaven—<br> Yet certain am I of the spot<br> As if the Checks were given—<br>
+        </div>
+        <div class="jt2">
+            If you say so
+        </div>
+    </div>
+    <div class="work">
+
+        <h2>All or nothing</h2>
+        <h5>FILTER BY CATEGORY</h5>
+        <div class="gategory">
+            <ul>
+                <li><a href="">When</a></li>
+                <li><a href="">you</a></li>
+                <li><a href="">Learning</a></li>
+                <li><a href="">Looking</a></li>
+                <li><a href="">tomorrows</a></li>
+            </ul>
+        </div>
+        <div class="ps">
+            <div class="pp ">
+                <a id="profile-link" href="./t1.html" target="_blank" class="project-tile">
+                    <img src="./images/4.jpg" alt="">
+                    <p> Tribute Page</p>
+                </a>
+            </div>
+            <div class="pp ">
+                <a href="./t2.html" target="_blank" class="project-tile">
+                    <iframe class="dd" src="./untitled.1132/荣耀.html" allow="fullscreen">
+                     </iframe>
+                    <p> Random</p>
+                </a>
+            </div>
+            <div class="pp ">
+                <a id="profile-link" href="./t1.html" target="_blank" class="project-tile">
+                    <img src="./images/4.jpg" alt="">
+                    <p> Tribute Page</p>
+                </a>
+            </div>
+            <div class="pp ">
+                <a href="./t2.html" target="_blank" class="project-tile">
+                    <img src="./images/3.jpg" alt="">
+                    <p> Random</p>
+                </a>
+            </div>
+            <div class="pp ">
+                <a id="profile-link" href="./t1.html" target="_blank" class="project-tile">
+                    <img src="./images/4.jpg" alt="">
+                    <p> Tribute Page</p>
+                </a>
+            </div>
+            <div class="pp ">
+                <a href="./t2.html" target="_blank" class="project-tile">
+                    <img src="./images/3.jpg" alt="">
+                    <p> Random</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    </div>
+    <footer>
+        <div class="ff">
+            <div class="ft1">Reach Out</div>
+            <div class="ft2"> Mutoumu@mumu.com</div>
+
+            <div class="tu">
+                <ul>
+                    <li class="mm"></li>
+                    <li class="tt"></li>
+                    <li class="mm"></li>
+                </ul>
+            </div>
+
+            <div class="uu">
+                <ul>
+                    <li><a class="uud" href="">Home</a></li>
+                    <li><a class="uud" href="">Work</a></li>
+                    <li><a class="uud" href="">Play</a></li>
+                </ul>
+            </div>
+            <div class="fft">
+                <span class="fl">Designed in BB, Built in Mutoumu</span>
+                <span class="fr">Mu Toumu 2021. All Rights Reserved</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
